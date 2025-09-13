@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sobre nós</title>
+    <title>Sobre Nós</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/aboutPage.css">
     <link rel="shortcut icon" href="/src/images/image-removebg-preview.png" type="image/x-icon">
+    <script src="js/sobrenos.js" defer></script>
 </head>
 
 <body>
-  <header>
+    <header>
         <nav>
             <div>
                 <a href="index.html">
@@ -20,70 +21,91 @@
             </div>
             <div>
                 <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="curiosidades.html">Curiosidades</a>
-                    </li>
-                    <li>
-                        <a href="receitas.html">Receitas</a>
-                    </li>
-                    <li>
-                        <a href="SobreoProjeto.html">Sobre o projeto</a>
-                    </li>
-                    <li>
-                        <a href="sobreNos.html">Sobre nós</a>
-                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="curiosidades.html">Curiosidades</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="SobreoProjeto.html">Sobre o projeto</a></li>
+                    <li><a href="sobreNos.html">Sobre nós</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
     <main>
         <section class="Nossa-missao">
             <h1>Nossa missão</h1>
             <p>No NutriVitta, nossa missão é promover hábitos saudáveis de forma simples e acessível. Queremos inspirar
                 as pessoas a cuidar da alimentação, descobrir dicas práticas e receitas nutritivas, e entender como
                 pequenas mudanças podem transformar a saúde e o bem-estar no dia a dia.</p>
-            <img src="src/images/chef-limpando-cenouras-e-nabos-na-pia.jpg" alt="imagem quadrada de algo ">
+            <img src="src/images/chef-limpando-cenouras-e-nabos-na-pia.jpg" alt="imagem quadrada de algo">
         </section>
+
         <h1 class="cola-titulo">Colaboradores</h1>
         <section class="colaboradores">
-            <div>
-                <img src="src/images/WhatsApp Image 2025-09-09 at 08.12.09.jpeg" alt="Tavinho">
+            <div id="Otavio" class="colaborador" onmouseover="contri('Otavio')">
+                <img src="src/images/WhatsApp Image 2025-09-09 at 08.12.09.jpeg" alt="Otávio">
                 <h2>Otávio</h2>
+                <div class="tooltip">
+                    <img src="src/images/WhatsApp Image 2025-09-09 at 08.12.09.jpeg" alt="Otávio">
+                    <p id="msg-Otavio"></p>
+                </div>
             </div>
-            <div>
+        
+            <div id="jota" class="colaborador" onmouseover="contri('jota')">
                 <img src="src/images/jota.jpeg" alt="João">
                 <h2>João</h2>
+                <div class="tooltip">
+                    <img src="src/images/jota.jpeg" alt="João">
+                    <p id="msg-jota"></p>
+                </div>
             </div>
-            <div>
+        
+            <div id="Miguel" class="colaborador" onmouseover="contri('Miguel')">
                 <img src="src/images/12e5a292-704d-4631-806c-577b76c54177.png" alt="Miguel">
                 <h2>Miguel</h2>
+                <div class="tooltip">
+                    <img src="src/images/12e5a292-704d-4631-806c-577b76c54177.png" alt="Miguel">
+                    <p id="msg-Miguel"></p>
+                </div>
             </div>
-            <div>
+        
+            <div id="sofia" class="colaborador" onmouseover="contri('sofia')">
                 <img src="src/images/WhatsApp Image 2025-09-12 at 21.37.36.jpeg" alt="Sofia">
                 <h2>Sofia</h2>
+                <div class="tooltip">
+                    <img src="src/images/WhatsApp Image 2025-09-12 at 21.37.36.jpeg" alt="Sofia">
+                    <p id="msg-sofia"></p>
+                </div>
             </div>
-            <div>
+        
+            <div id="Alice" class="colaborador" onmouseover="contri('Alice')">
                 <img src="src/images/WhatsApp Image 2025-09-12 at 21.37.35.jpeg" alt="Alice">
                 <h2>Alice</h2>
+                <div class="tooltip">
+                    <img src="src/images/WhatsApp Image 2025-09-12 at 21.37.35.jpeg" alt="Alice">
+                    <p id="msg-Alice"></p>
+                </div>
             </div>
-            <div>
+        
+            <div id="Flavia" class="colaborador" onmouseover="contri('Flavia')">
                 <img src="src/images/WhatsApp Image 2025-09-12 at 21.37.35 (1).jpeg" alt="Flavia">
                 <h2>Flavia</h2>
+                <div class="tooltip">
+                    <img src="src/images/WhatsApp Image 2025-09-12 at 21.37.35 (1).jpeg" alt="Flavia">
+                    <p id="msg-Flavia"></p>
+                </div>
             </div>
-
-        </section>
+        </section>        
     </main>
+
     <footer>
         <div>
             <h4>NutriVitta</h4>
             <div class="redes">
                 <a href=""><img src="src/images/XLogo.png" alt=""></a>
-                <a href="https://www.instagram.com/nutrivitta_saude?igsh=M2Y1YTJ0MHp0YmRy"><img
-                        src="src/images/InstagramLogo.png" alt=""></a>
-             
+                <a href="https://www.instagram.com/nutrivitta_saude?igsh=M2Y1YTJ0MHp0YmRy">
+                    <img src="src/images/InstagramLogo.png" alt="">
+                </a>
             </div>
         </div>
         <nav>
