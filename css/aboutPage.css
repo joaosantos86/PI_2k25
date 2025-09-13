@@ -1,53 +1,44 @@
-
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
 @import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+
+ody {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
 }
 
-
-header {
-    background: white;
-    padding: 15px 20px;
-}
-
-.nav-bar {
+/*--peguei nav do miguel pq ele é senior--*/
+header nav {
+    background-color: #f7f4ec;
     display: flex;
     justify-content: space-between;
+    padding: 2vw 8vw 2vw 8vw;
     align-items: center;
-}
+    box-shadow: 1px 1px 15px rgba(117, 109, 86, 0.205);
 
-.nav-bar>a {
-    font-size: 22px;
-    font-weight: bold;
-    color: #809671;
-    font-family: Irish Grover;
-    text-decoration: none;
-}
+    & div h1 {
+        color: #809671;
+        font-family: irish grover;
+        font-size: 30px;
+    }
 
-.nav-bar ul {
-    list-style: none;
-    display: flex;
-}
+    & div ul {
+        display: flex;
+        gap: 40px;
 
-.nav-bar li {
-    gap: 20px;
-}
+        & li a {
+            font-family: 'Inter', sans-serif;
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+            display: inline-block;
+        }
 
-.nav-bar ul li a {
-    color: #000000;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
+        & li a:hover {
+            transform: scale(1.1);
+            color: #809671;
 
-.nav-bar a:hover {
-    background: #f5f5f5;
+        }
+    }
 }
-
 
 main {
     padding: 30px;
@@ -154,6 +145,7 @@ footer nav {
     justify-content: space-between;
     gap: 100px;
 }
+
 footer li {
     margin-bottom: 8px;
 }
