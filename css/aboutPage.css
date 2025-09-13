@@ -1,13 +1,14 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
-@import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
 body {
     background-color: #ffffff;
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
-/*--peguei nav do miguel pq ele é senior--*/
+/*--------------------- Header ---------------------*/
 header nav {
     background-color: #f7f4ec;
     display: flex;
@@ -27,7 +28,7 @@ header nav {
         gap: 40px;
 
         & li a {
-            font-family: 'Inter', sans-serif;
+     font-family: 'Inter', sans-serif;
             transition: transform 0.3s ease, text-shadow 0.3s ease;
             display: inline-block;
         }
@@ -57,7 +58,7 @@ main {
 
 .Nossa-missao h1 {
     width: 100%;
-    font-family: Inria Serif;
+    font-family: 'Inria Serif', serif;
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #ffffff;
@@ -81,7 +82,7 @@ main {
 .cola-titulo {
     color: #809671;
     text-align: center;
-    font-family: Inria Serif;
+    font-family: 'Inria Serif', serif;
     font-size: 2.5rem;
     margin-top: 30px;
 }
@@ -93,9 +94,20 @@ main {
     gap: 20px;
     padding: 40px;
     text-align: center;
+    position: relative;
 }
 
-.colaboradores img {
+.colaborador {
+    position: relative; /* necessário para o tooltip */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.colaborador:hover {
+    transform: translateY(-6px) scale(1.03);
+}
+
+.colaborador img {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -104,14 +116,44 @@ main {
     margin-bottom: 10px;
 }
 
-.colaboradores h2 {
+.colaborador h2 {
     font-size: 18px;
     color: black;
+    margin: 0;
 }
 
+/*bgl pra aparecer as contribuicao ai */
+.tooltip {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
+.tooltip p {
+    color: #fff;
+}
+.tooltip img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.colaborador:hover .tooltip {
+    display: block;
+}
 
 footer {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     background: #526645;
     color: white;
     padding: 5vw 20vw 5vw 10vw;
@@ -130,8 +172,7 @@ footer .redes {
 footer h4 {
     font-size: 30px;
     color: white;
-    font-family: Irish Grover;
-    text-decoration: none;
+    font-family: 'Irish Grover', cursive;
     margin-bottom: 20px;
 }
 
@@ -139,7 +180,6 @@ footer .redes img {
     width: 24px;
     height: 24px;
 }
-
 
 footer nav {
     display: flex;
@@ -150,6 +190,7 @@ footer nav {
 
 footer li {
     margin-bottom: 8px;
+    list-style: none;
 }
 
 footer a {
