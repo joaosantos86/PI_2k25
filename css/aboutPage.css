@@ -51,7 +51,7 @@ main {
     justify-content: center;
     gap: 20px;
     padding: 40px 20px;
-    background-color: #f5f5f5;
+    background-color: #809671;
     text-align: center;
 }
 
@@ -60,14 +60,14 @@ main {
     font-family: Inria Serif;
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #809671;
+    color: #ffffff;
 }
 
 .Nossa-missao p {
     max-width: 500px;
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #555;
+    color:#ffffff;
     text-align: left;
 }
 
@@ -83,9 +83,11 @@ main {
     text-align: center;
     font-family: Inria Serif;
     font-size: 2.5rem;
+    margin-top: 30px;
 }
 
 .colaboradores {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 20px;
