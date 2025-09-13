@@ -124,11 +124,13 @@ header nav {
 .vejaTambem {
     padding: 50px;
 
+
     & h3 {
         margin-top: 50px;
         color: #526645;
         font-size: 30px;
         margin-bottom: 20px;
+        margin-left: 7.5vw;
 
         & span {
             color: #526645;
@@ -143,7 +145,7 @@ header nav {
         gap: 60px;
 
         & li {
-            width: 250px;
+            width:250px;
 
             & img {
                 width: 100%;
@@ -212,6 +214,7 @@ header nav {
     padding: 50px;
 
     & h3 {
+        margin-left: 7.5vw;
         margin-top: 50px;
         color: #526645;
         font-size: 30px;
@@ -277,6 +280,7 @@ header nav {
             display: flex;
             text-align: end;
             align-items: center;
+            
 
         }
     }

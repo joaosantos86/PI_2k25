@@ -113,13 +113,13 @@ header nav {
         width: 100%;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 50px;
 
         & li {
-            width: 300px;
+            width:250px;
 
             & img {
                 width: 100%;
