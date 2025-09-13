@@ -1,8 +1,13 @@
-/*--Imports--*/
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
 
-/*--Nav-Bar--*/
+ody {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+/*--peguei nav do miguel pq ele é senior--*/
 header nav {
     background-color: #f7f4ec;
     display: flex;
@@ -22,7 +27,7 @@ header nav {
         gap: 40px;
 
         & li a {
-            font-family: inter;
+            font-family: 'Inter', sans-serif;
             transition: transform 0.3s ease, text-shadow 0.3s ease;
             display: inline-block;
         }
@@ -35,7 +40,7 @@ header nav {
     }
 }
 
-/*--Suar--*/
+
 .curiosidades {
     & h2 {
         color: #526645;
@@ -192,11 +197,11 @@ header nav {
         }
 
         & .videovideo {
-            box-shadow:  1px 1px 10px #3a4433;
+            box-shadow: 1px 1px 10px #3a4433;
             display: flex;
             text-align: end;
             align-items: center;
-            
+
         }
     }
 }
@@ -268,7 +273,7 @@ header nav {
         }
 
         & .videovideo2 {
-            box-shadow:  1px 1px 10px #3a4433;
+            box-shadow: 1px 1px 10px #3a4433;
             display: flex;
             text-align: end;
             align-items: center;
@@ -277,7 +282,9 @@ header nav {
     }
 }
 
-/*--Footer--*/
+
+
+
 
 footer {
     font-family: Inter;
