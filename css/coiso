@@ -6,11 +6,6 @@ body {
     background-color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 /*--peguei nav do miguel pq ele é senior--*/
 header nav {
@@ -45,7 +40,69 @@ header nav {
     }
 }
 
-.receitas {
+footer {
+    font-family: Inter;
+    background: #526645;
+    color: white;
+    padding: 5vw 20vw 5vw 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 30px;
+    color: white;
+    font-family: Irish Grover;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer .redes img {
+    width: 24px;
+    height: 24px;
+}
+
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .titulo-navegacao,
+footer .titulo-duvidas,
+footer .titulo-instucionais {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+    .receitas {
     background-color: #8F9779;
     color: #ffffff;
     padding: 60px 0;
@@ -134,46 +191,7 @@ header nav {
 
 
 
-@media (max-width: 992px) {
-    .recipe-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
-    header nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-image-wrapper {
-        min-width: initial;
-        width: 100%;
-    }
-
-    .hero-text h1 {
-        font-size: 2.5rem; 
-    }
-    
-    .recipe-grid {
-        grid-template-columns: 1fr; 
-    }
-
-    .recipe-card img {
-        height: auto;
-    }
-
-    header ul {
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
 #video-geral {
   
     background-color: #8A9A84; 
@@ -241,69 +259,3 @@ header nav {
 .video-thumbnail a:hover img {
     transform: scale(1.03);
 }
-
-
-
-footer {
-    font-family: Inter;
-    background: #526645;
-    color: white;
-    padding: 5vw 20vw 5vw 10vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer .redes {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-footer h4 {
-    font-size: 30px;
-    color: white;
-    font-family: Irish Grover;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-
-footer .redes img {
-    width: 24px;
-    height: 24px;
-}
-
-
-footer nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 100px;
-}
-
-footer li {
-    margin-bottom: 8px;
-}
-
-footer a {
-    color: #bbb;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: white;
-}
-
-footer .titulo-navegacao,
-footer .titulo-duvidas,
-footer .titulo-instucionais {
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    color: #fff;
-}
-
- 
