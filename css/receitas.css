@@ -6,6 +6,7 @@ body {
     background-color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -22,8 +23,8 @@ header nav {
     box-shadow: 1px 1px 15px rgba(117, 109, 86, 0.205);
 
     & div h1 {
-        color: #809671;
-        font-family: irish grover;
+        color: #526645;
+        font-family: 'Inter', irish grover;
         font-size: 30px;
     }
 
@@ -40,15 +41,15 @@ header nav {
         & li a:hover {
             transform: scale(1.1);
             color: #809671;
-
         }
     }
 }
 
 .receitas {
-    background-color: #8F9779;
+    background-color: #526645;
     color: #ffffff;
     padding: 60px 0;
+    margin-top: 70px;
 }
 
 .hero-content {
@@ -59,9 +60,8 @@ header nav {
 
 .hero-image-wrapper {
     flex: 1;
-    min-width: 400px; 
+    min-width: 400px;
 }
-
 
 .hero-image-wrapper iframe {
     width: 100%;
@@ -76,7 +76,7 @@ header nav {
 
 .hero-text h1 {
     font-family: 'Lora', serif;
-    font-size: 2.7rem; 
+    font-size: 2.7rem;
     line-height: 1.2;
     margin-bottom: 20px;
     color: #FFFFFF;
@@ -86,17 +86,15 @@ header nav {
     font-size: 1.125rem;
     line-height: 1.6;
     color: #FFFFFF;
-
 }
-
 
 .vejaTambem {
     padding: 60px 0;
 }
 
 .vejaTambem h2 {
-    font-size: 2.5rem; 
-    color:#809671;
+    font-size: 2.5rem;
+    color: #809671;
     margin-bottom: 40px;
 }
 
@@ -119,7 +117,7 @@ header nav {
 }
 
 .recipe-card h3 {
-    font-size: 2.2rem; 
+    font-size: 2.2rem;
     color: #333;
     margin-bottom: 10px;
     font-weight: 700;
@@ -128,11 +126,9 @@ header nav {
 
 .recipe-card p {
     font-size: 0.9rem;
-    color:black;
+    color: black;
     line-height: 1.5;
 }
-
-
 
 @media (max-width: 992px) {
     .recipe-grid {
@@ -157,11 +153,11 @@ header nav {
     }
 
     .hero-text h1 {
-        font-size: 2.5rem; 
+        font-size: 2.5rem;
     }
-    
+
     .recipe-grid {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
 
     .recipe-card img {
@@ -174,16 +170,16 @@ header nav {
         justify-content: center;
     }
 }
+
 #video-geral {
-  
-    background-color: #8A9A84; 
+    background-color: #8A9A84;
     padding: 40px 20px;
-    color: #F5F5F5; 
+    color: #F5F5F5;
     text-align: center;
 }
 
 .titulo-secao {
-    font-family: 'Lora', serif; 
+    font-family: 'Lora', serif;
     font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 40px;
@@ -194,19 +190,19 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px; 
+    gap: 50px;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align: left;
 }
 
 .video-texto {
-    flex: 1; 
+    flex: 1;
     max-width: 500px;
 }
 
 .video-texto h3 {
-    font-size: 2.8rem; 
+    font-size: 2.8rem;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 20px;
@@ -232,17 +228,14 @@ header nav {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px; 
+    border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
 
-
 .video-thumbnail a:hover img {
     transform: scale(1.03);
 }
-
-
 
 footer {
     font-family: Inter;
@@ -274,7 +267,6 @@ footer .redes img {
     height: 24px;
 }
 
-
 footer nav {
     display: flex;
     flex-wrap: wrap;
@@ -305,5 +297,3 @@ footer .titulo-instucionais {
     margin-bottom: 12px;
     color: #fff;
 }
-
- 
