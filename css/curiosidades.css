@@ -1,0 +1,342 @@
+/*--Imports--*/
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
+
+/*--Nav-Bar--*/
+header nav {
+    background-color: #f7f4ec;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 8vw 2vw 8vw;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(117, 109, 86, 0.205);
+
+    & div h1 {
+        color: #809671;
+        font-family: irish grover;
+        font-size: 30px;
+    }
+
+    & div ul {
+        display: flex;
+        gap: 40px;
+
+        & li a {
+            font-family: inter;
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+            display: inline-block;
+        }
+
+        & li a:hover {
+            transform: scale(1.1);
+            color: #809671;
+
+        }
+    }
+}
+
+/*--Suar--*/
+.curiosidades {
+    & h2 {
+        color: #526645;
+        text-align: center;
+        font-family: inter;
+        font-size: 30px;
+        margin: 50px 0 30px 0;
+
+        & span {
+            border-top: solid 1px;
+            color: #526645;
+        }
+    }
+
+    & .boxCuriosity {
+        font-family: inter;
+        font-weight: bold;
+        background-color: #809671;
+        padding: 100px 0 100px 0;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & ul {
+            border-left: solid 1px white;
+            padding-left: 50px;
+        }
+
+        & p {
+            width: 500px;
+            color: white;
+        }
+
+        & h4 {
+            font-size: 30px;
+            color: white;
+        }
+
+        & h3 {
+            color: white;
+            font-size: 45px;
+        }
+
+        & ul li {
+            margin-bottom: 0.75rem;
+        }
+
+        & .imagem {
+            display: flex;
+            justify-content: end;
+            flex-direction: column;
+            width: 550px;
+            height: 400px;
+            background: url(../src/images/imagensCuriosidades/imagemTopo.png);
+            background-position: -300px -50px;
+            border-radius: 15px;
+            padding: 20px 50px 20px 50px;
+            box-shadow: 1px 1px 10px #3a4433;
+
+            & div button {
+                border-radius: 7px;
+                border: 1px solid #809671;
+                opacity: 0.71;
+                background: #809671;
+                padding: 10px 30px 10px 30px;
+                transition: 300ms ease;
+            }
+
+            & div button:hover {
+                cursor: pointer;
+                transition: 300ms ease;
+                opacity: 0.82;
+            }
+        }
+    }
+}
+
+/*--Veja tambem--*/
+.vejaTambem {
+    padding: 50px;
+
+    & h3 {
+        margin-top: 50px;
+        color: #526645;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+        & span {
+            color: #526645;
+            border-top: solid 1px;
+        }
+    }
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+
+        & li {
+            width: 250px;
+
+            & img {
+                width: 100%;
+            }
+
+            & h4 {
+                font-size: 30px;
+                margin-top: 10px;
+            }
+
+            & p {
+                font-size: 20px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+/*--Video--*/
+.Video {
+    & h2 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 40px;
+
+        & span {
+            color: #809671;
+            border-top: solid 1px;
+        }
+    }
+
+    & .boxVideo {
+        background-color: #809671;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        & h3 {
+            font-size: 30px;
+            font-family: inter;
+            font-weight: bold;
+            color: white;
+        }
+
+        & p {
+            width: 430px;
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        & .videovideo {
+            box-shadow:  1px 1px 10px #3a4433;
+            display: flex;
+            text-align: end;
+            align-items: center;
+            
+        }
+    }
+}
+
+/*--Saiba mais--*/
+.saibaMais {
+    text-align: start;
+    padding: 50px;
+
+    & h3 {
+        margin-top: 50px;
+        color: #526645;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+        & span {
+            color: #526645;
+            border-top: solid 1px;
+        }
+    }
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+
+        & li {
+            width: 250px;
+
+            & img {
+                width: 100%;
+            }
+
+            & h4 {
+                font-size: 30px;
+                margin-top: 10px;
+            }
+
+            & p {
+                font-size: 20px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+/*--Video2--*/
+.Video2 {
+    & .boxVideo2 {
+        background-color: #809671;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        & h3 {
+            font-size: 30px;
+            font-family: inter;
+            font-weight: bold;
+            color: white;
+        }
+
+        & p {
+            width: 430px;
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        & .videovideo2 {
+            box-shadow:  1px 1px 10px #3a4433;
+            display: flex;
+            text-align: end;
+            align-items: center;
+
+        }
+    }
+}
+
+/*--Footer--*/
+
+footer {
+    font-family: Inter;
+    background: #526645;
+    color: white;
+    padding: 5vw 20vw 5vw 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 30px;
+    color: white;
+    font-family: Irish Grover;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer .redes img {
+    width: 24px;
+    height: 24px;
+}
+
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .titulo-navegacao,
+footer .titulo-duvidas,
+footer .titulo-instucionais {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #fff;
+}

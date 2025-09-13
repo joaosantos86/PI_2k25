@@ -1,0 +1,258 @@
+/*--Imports--*/
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&display=swap);
+
+body {
+    background-color: #ffffff;
+}
+
+/*--Nav-Bar--*/
+header nav {
+    background-color: #f7f4ec;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 8vw 2vw 8vw;
+    align-items: center;
+    box-shadow: 1px 1px 15px rgba(117, 109, 86, 0.205);
+
+    & div h1 {
+        color: #809671;
+        font-family: irish grover;
+        font-size: 30px;
+    }
+
+    & div ul {
+        display: flex;
+        gap: 40px;
+
+        & li a {
+            font-family: inter;
+            transition: transform 0.3s ease, text-shadow 0.3s ease;
+            display: inline-block;
+        }
+
+        & li a:hover {
+            transform: scale(1.1);
+            color: #809671;
+
+        }
+    }
+}
+
+/*--Banner--*/
+.banner {
+    /*--background--*/
+    width: 93%;
+    background: url(../src/images/banner.png);
+    background-size: cover;
+    background-position: center;
+    margin: 50px;
+    box-shadow: 0 0 10px #5e5a51;
+
+    /*--conteudo--*/
+    & .box {
+        font-family: inter;
+        padding: 100px;
+    }
+
+    & .box h2 {
+        width: 40%;
+        color: #667c57;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    & .box p {
+        color: #526645;
+        font-weight: 250;
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+
+    & .box a {
+        background-color: #809671;
+        padding: 10px 20px;
+        color: rgb(58, 68, 57);
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        ;
+        display: inline-block;
+    }
+
+    & .box a:hover {
+        background-color: #9aaf8d;
+        filter: brightness(1.1);
+        transform: scale(1.1);
+    }
+}
+
+/*--Pilares da Alimentação equilibrada--*/
+.Pilares {
+    & .box2 {
+        padding: 10px;
+        margin-top: 40px;
+        background-color: #667c57;
+    }
+
+    & h3 {
+        text-align: center;
+        color: #809671;
+        font-size: calc(20px + 1vw);
+        text-shadow: 1px 1px 1px rgb(117, 109, 86);
+
+        & span {
+            color: #809671;
+            border-bottom: solid 1px;
+            padding-bottom: 10px;
+        }
+    }
+
+    & ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+
+        & li {
+            width: 300px;
+
+            & img {
+                width: 100%;
+                box-shadow: 0 0 10px #3d4b33;
+            }
+
+            & h4 {
+                text-align: center;
+                padding: 5px;
+                color: #FFFFFF;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+/*--Veja tambem--*/
+.vejaTambem {
+    padding: 50px;
+
+    & h3 {
+        margin-top: 50px;
+        color: #526645;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+        & span {
+            color: #526645;
+            border-top: solid 1px;
+        }
+    }
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        & li {
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            & img {
+                width: 100%;
+                border-radius: 8px;
+                transition: transform 0.3s ease;
+            }
+
+            & h4 {
+                text-align: center;
+                font-size: 20px;
+                transition: transform 0.3s ease, color 0.3s ease;
+            }
+
+            &:hover img,
+            &:hover h4 {
+                transform: scale(1.05);
+                color: #526645;
+            }
+        }
+    }
+
+    & p {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+/*--Footer--*/
+
+footer {
+    font-family: Inter;
+    background: #526645;
+    color: white;
+    padding: 5vw 20vw 5vw 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .redes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 30px;
+    color: white;
+    font-family: Irish Grover;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+footer .redes img {
+    width: 24px;
+    height: 24px;
+}
+
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .titulo-navegacao,
+footer .titulo-duvidas,
+footer .titulo-instucionais {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #fff;
+}
