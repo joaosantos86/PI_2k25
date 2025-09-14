@@ -23,8 +23,8 @@ header nav {
     box-shadow: 1px 1px 15px rgba(117, 109, 86, 0.205);
 
     & div h1 {
-        color: #526645;
-        font-family: 'Inter', irish grover;
+        color: #809671;
+        font-family:irish grover;
         font-size: 30px;
     }
 
@@ -46,7 +46,7 @@ header nav {
 }
 
 .receitas {
-    background-color: #526645;
+    background-color:#809671;
     color: #ffffff;
     padding: 60px 0;
     margin-top: 70px;
@@ -96,6 +96,7 @@ header nav {
     font-size: 2.5rem;
     color: #809671;
     margin-bottom: 40px;
+    font-family: Inria Serif;
 }
 
 .recipe-grid {

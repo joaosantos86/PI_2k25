@@ -1,5 +1,5 @@
 const contribuicao = {
-    Otavio: "asdasds",
+    Otavio: "desenvolveu as páginas: sobre nós, receitas e termos de uso.",
     Jota: "",
     Miguel: "",
     Sofia: "",
@@ -7,7 +7,7 @@ const contribuicao = {
     Flavia: ""
 };
 
-// to contruindo o javascript ainda, NÂO QUERO CRITICAS !!!!
+// to construindo o javascript ainda, NÂO QUERO CRITICAS !!!!
 function contri(id) {
     const msg = document.getElementById("msg-" + id);
 
