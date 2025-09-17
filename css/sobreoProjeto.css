@@ -44,11 +44,15 @@ header nav {
 main {
     padding-bottom: 50px;
 }
-
+.sobre{
+     background-color: #cfe0bc;
+     padding: 20px;
+}
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
+   
 }
 
 h2 {
