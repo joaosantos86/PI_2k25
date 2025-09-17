@@ -74,7 +74,8 @@ header nav {
     & .box a {
         background-color: #809671;
         padding: 10px 20px;
-        color: rgb(58, 68, 57);
+        color: #ffffff;
+        font-weight: bold;
         border-radius: 5px;
         transition: all 0.3s ease;
         ;
