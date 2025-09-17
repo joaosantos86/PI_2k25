@@ -204,7 +204,7 @@ footer .titulo-instucionais {
     margin: 20px auto;
     padding: 20px;
     border-radius: 20px;
-    background-color: #809671; /* cor azul */
+    background-color: #809671;
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -222,4 +222,17 @@ footer .titulo-instucionais {
     margin: 0;
     color: #ffffff;
 }
+#exibi.baixo {
+    background-color: rgb(81, 229, 255);
+}
+#exibi.normal {
+    background-color: rgb(56, 238, 95);
+}
+#exibi.sobrepeso {
+    background-color: rgb(245, 167, 50);
+}
+#exibi.obesidade {
+    background-color: rgb(248, 53, 53);
+}
+
 

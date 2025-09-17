@@ -18,12 +18,16 @@ function resultadoECalculo() {
     const criarp = document.createElement("p");
     if (imc < 18.5) {
         criarp.textContent = `Estado: Baixo peso  Imc: ${imc}`;
+        localDeExibir.classList.toggle('baixo');
     } else if (imc < 24.99) {
         criarp.textContent = `Estado: peso Normal Imc: ${imc}`;
+        localDeExibir.classList.toggle('normal');
     } else if (imc < 29.99) {
         criarp.textContent = `Estado: Sobrepeso  Imc: ${imc}`;
-    } else {
+        localDeExibir.classList.toggle('sobrepeso');
+    } else if (imc > 30) {
         criarp.textContent =  `Estado: Obesidade  Imc: ${imc}`;
+        localDeExibir.classList.toggle('obesidade');
     }
     localDeExibir.appendChild(criarp);
     idDoPeso.value = "";
@@ -31,8 +35,11 @@ function resultadoECalculo() {
     document.getElementById("calcular").textContent = "Calcular";
 }
 function tudoJunto() {
+
     carregando();
     setTimeout(resultadoECalculo, 3000);
 }
+
+
 //vou dar um update depois, vou tentar fazer com objeto  mas por agr vou dormir
 
