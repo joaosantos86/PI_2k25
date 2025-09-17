@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/imc.css">
     <link rel="shortcut icon" href="/src/images/image-removebg-preview.png" type="image/x-icon">
+    <script src="js/imc.js" defer></script>
 </head>
 
 <body>
@@ -29,22 +30,27 @@
             </div>
         </nav>
     </header>
-        <div class="container"></div>
-        <section class="textinhos">
-            <h1>IMC</h1>
-            <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
-            <p>  O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
-        </section>
-            
-                <form action="form" class="form">
-                    <label for="altura">Altura</label>
-                    <input type="number" id="altura" placeholder="Digite sua altura" required>
-                    <label for="peso">Peso</label>
-                    <input type="number" id="peso" placeholder="Digite seu peso" required>
-                    <button type="submit">Calcular</button>
+    <div class="container"></div>
+    <section class="textinhos">
+        <h1>IMC</h1>
+        <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para
+            calcular o peso ideal de cada pessoa.</p>
+        <p> O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.
+            Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+    </section>
+    <form class="form">
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" placeholder="Digite sua altura" required>
 
-                </form>
-        </div>
+        <label for="peso">Peso</label>
+        <input type="number" id="peso" placeholder="Digite seu peso" required>
+
+        <button type="button" id="calcular" onclick="tudoJunto()">Calcular</button>
+    </form>
+
+    <div id="exibi" class="resultado"></div>
+
+    </div>
     <footer>
         <div>
             <h4>NutriVitta</h4>
