@@ -1,10 +1,10 @@
 const contribuicao = {
-    Otavio: "Desenvolveu as páginas: Sobre nós, Receitas, Imc e Termos de uso.",
-    jota: "Desenvolveu a página: Sobre o projeto e fez o design de todas as páginas.",
-    Miguel: "Desenvolveu as páginas: Home e Curiosidades.",
-    sofia: "Cuidou das redes sociais",
-    Alice: "Cuidou das redes sociais",
-    Flavia: "Cuidou das redes sociais"
+    Otavio: "Desenvolvedor, colabora na programação do site e na implementação das funcionalidades.",
+    jota: "Desenvolvedor, responsável por auxiliar na criação do site e no design das páginas.",
+    Miguel: "Desenvolvedor do projeto, encarregado de trabalhar na programação e na estruturação do site.",
+    sofia: "Líder e secretária do grupo, responsável por coordenar as atividades, organizar as reuniões e registrar as decisões tomadas.",
+    Alice: "Pesquisadora do grupo, dedicada a buscar informações confiáveis sobre alimentação equilibrada. ",
+    Flavia: "Pesquisadora, responsável por complementar a coleta de dados e organizar materiais teóricos. "
 };
 //fiz uns texto meio provisorio não sei direito o que cada um fez, dai muda depois .
 
