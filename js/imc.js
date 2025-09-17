@@ -13,7 +13,7 @@ function resultadoECalculo() {
     const localDeExibir = document.getElementById("exibi");
     localDeExibir.innerHTML = ""; 
     const criarH1 = document.createElement("h1");
-    criarH1.textContent = "Resultado";
+    criarH1.textContent = "Resultado:";
     localDeExibir.appendChild(criarH1);
     const criarp = document.createElement("p");
     if (imc < 18.5) {
@@ -34,4 +34,5 @@ function tudoJunto() {
     carregando();
     setTimeout(resultadoECalculo, 3000);
 }
+//vou dar um update depois, vou tentar fazer com objeto  mas por agr vou dormir
 
