@@ -28,11 +28,7 @@ Peso normal
 
 Sobrepeso
 
-Obesidade Grau I
-
-Obesidade Grau II
-
-Obesidade Grau III
+Obesidade  
 
 Conteúdo educativo:
 

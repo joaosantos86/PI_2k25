@@ -23,7 +23,7 @@ function resultadoECalculo() {
     const criarp = document.createElement("p");
     localDeExibir.className = "";
     if (imc < 18.5) {
-        criarp.textContent = `Estado: Baixo peso  Imc: ${imc}`;
+        criarp.textContent = `Estado: peso Abaixo  Imc: ${imc}`;
         localDeExibir.classList.toggle('baixo');
     } else if (imc < 24.99) {
         criarp.textContent = `Estado: peso Normal Imc: ${imc}`;

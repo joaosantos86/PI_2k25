@@ -44,9 +44,63 @@ header nav {
 main {
     padding-bottom: 50px;
 }
-.sobre{
-     background-color: #ffffff;
-     padding: 20px;
+.sobre {
+    text-align: center; 
+    margin: 20px auto;
+}
+
+.sobre h2 {
+    font-size: 1.8rem;
+    color: #809671;
+    margin-bottom: 15px; 
+    font-weight: bold;
+}
+
+.sobrecard {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #809671;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sobrecard p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #555;
+}
+.sobrecard:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.funçãodoscrias {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    background: #ffffff;
+    border: 2px solid #809671;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.funçãodoscrias li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.funçãodoscrias li strong {
+    color: #526645;
+    font-weight: bold;
+}
+.funçãodoscrias:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 .container {
     max-width: 960px;
@@ -64,9 +118,10 @@ h2 {
 
 h3 {
     text-align: center;
-    color: #4a6a4a;
+    color: #809671;
     font-size: 1.8em; 
     margin: 40px 0 20px;
+    font-weight: bold;
 }
 
 p {
