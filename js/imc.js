@@ -12,10 +12,16 @@ function resultadoECalculo() {
     const imc = (peso / (altura * altura) *10000).toFixed(2);
     const localDeExibir = document.getElementById("exibi");
     localDeExibir.innerHTML = ""; 
+    if (!peso || !altura || altura <= 0) {
+        alert("Digite valores válidos!");
+        document.getElementById("calcular").textContent = "Calcular";
+        return;
+    }
     const criarH1 = document.createElement("h1");
     criarH1.textContent = "Resultado:";
     localDeExibir.appendChild(criarH1);
     const criarp = document.createElement("p");
+    localDeExibir.className = "";
     if (imc < 18.5) {
         criarp.textContent = `Estado: Baixo peso  Imc: ${imc}`;
         localDeExibir.classList.toggle('baixo');
@@ -25,7 +31,7 @@ function resultadoECalculo() {
     } else if (imc < 29.99) {
         criarp.textContent = `Estado: Sobrepeso  Imc: ${imc}`;
         localDeExibir.classList.toggle('sobrepeso');
-    } else if (imc > 30) {
+    } else if (imc >= 30) {
         criarp.textContent =  `Estado: Obesidade  Imc: ${imc}`;
         localDeExibir.classList.toggle('obesidade');
     }
@@ -39,7 +45,4 @@ function tudoJunto() {
     carregando();
     setTimeout(resultadoECalculo, 3000);
 }
-
-
-//vou dar um update depois, vou tentar fazer com objeto  mas por agr vou dormir
 
