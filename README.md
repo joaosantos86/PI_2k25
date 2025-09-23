@@ -1,4 +1,5 @@
 Projeto Integrador – Alimentação Equilibrada
+
 📌 Descrição do Projeto
 
 Este projeto foi desenvolvido como parte do Projeto Integrador do curso no Instituto Federal Catarinense – Campus Araquari.
