@@ -54,6 +54,7 @@ main {
     padding: 40px 20px;
     background-color: #809671;
     text-align: center;
+    flex-direction: column;
 }
 
 .Nossa-missao h1 {
@@ -73,7 +74,6 @@ main {
 }
 
 .Nossa-missao img {
-    width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
