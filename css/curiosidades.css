@@ -59,7 +59,7 @@ header nav {
         font-family: inter;
         font-weight: bold;
         background-color: #809671;
-        padding: 100px 0 100px 0;
+        padding: 2vw 3vw;
         display: flex;
         gap: 50px;
         justify-content: center;
@@ -102,7 +102,9 @@ header nav {
             padding: 20px 50px 20px 50px;
             box-shadow: 1px 1px 10px #3a4433;
 
-            & div button {
+            & div a {
+                position: relative;
+                top: -15px;
                 border-radius: 7px;
                 border: 1px solid #809671;
                 opacity: 0.71;
@@ -111,10 +113,10 @@ header nav {
                 transition: 300ms ease;
             }
 
-            & div button:hover {
+            & div a:hover {
                 cursor: pointer;
                 transition: 300ms ease;
-                opacity: 0.82;
+                opacity: 0.92;
             }
         }
     }
@@ -179,9 +181,10 @@ header nav {
 
     & .boxVideo {
         background-color: #809671;
-        padding: 50px;
+        padding: 2vw 3vw;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 50px;
 
         & h3 {

@@ -92,7 +92,7 @@ header nav {
 /*--Pilares da Alimentação equilibrada--*/
 .Pilares {
     & .box2 {
-        padding: 10px;
+        padding: 30px;
         margin-top: 50px;
         background-color: #667c57;
     }
@@ -101,7 +101,6 @@ header nav {
         text-align: center;
         color: #809671;
         font-size: calc(20px + 1vw);
-        text-shadow: 1px 1px 1px rgb(117, 109, 86);
 
         & span {
             color: #809671;
@@ -158,6 +157,7 @@ header nav {
         & span {
             color: #526645;
             border-top: solid 1px;
+            padding-top: 5px;
         }
     }
 
